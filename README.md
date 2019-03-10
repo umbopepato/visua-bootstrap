@@ -10,8 +10,14 @@ See [visua.io](https://visua.io) to get started with visua and visua plugins.
 
 ## Installation
 
-```
+```bash
 $ npm i visua-bootstrap
+```
+
+# Usage
+
+```bash
+$ visua run bootstrap [--outFile]
 ```
 
 ## Variables
