@@ -17,10 +17,10 @@
         "mocha": "^6.0.2",
         "ts-node": "^8.0.3",
         "typescript": "^3.3.3333",
-        "visua": "^0.6.4"
+        "visua": "^0.6.5"
     },
     "peerDependencies": {
-        "visua": "^0.6.4"
+        "visua": "^0.6.5"
     },
     "files": [
         "**/*.js"
