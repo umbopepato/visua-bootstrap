@@ -1,31 +1,31 @@
 import {visua} from 'visua';
 import MyPlugin from '../index';
+import {expect} from 'chai';
+import * as fs from 'fs';
+
+const EXPORT_FILE_PATH = 'test/variables.scss';
 
 describe('run()', () => {
     let styleMap;
 
-    before(async () => {
-
-        // To test your plugin add sample variables to identity.css
-        // then before running other tests load it with the Visua API:
-        styleMap = await visua({
-
-            // The test script is run from the main folder so
-            // this tells Visua to look for the identity file
-            // in the test folder
+    before(() => {
+        styleMap = visua({
             path: 'test',
-
-            // This stops the execution on parsing errors
             strict: true,
         });
-
     });
 
     it('should... ', () => {
-        // Run your plugin by directly calling the `run` method
         new MyPlugin().run(styleMap, {
-            // Pass here some options if needed
+            outFile: EXPORT_FILE_PATH,
         });
+        const exportedFile = fs.readFileSync(EXPORT_FILE_PATH, 'UTF-8');
+        expect(exportedFile).to.include('primary');
     });
 
+    after(() => {
+        if (fs.existsSync(EXPORT_FILE_PATH)) {
+            fs.unlinkSync(EXPORT_FILE_PATH);
+        }
+    });
 });

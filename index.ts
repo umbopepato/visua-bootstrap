@@ -32,7 +32,6 @@ export default class extends Plugin {
             'headings-color',
             'primary-text-color',
         ]);
-        console.log('vars', vars.primaryColor.toString());
         const theme = templatel`
             // Colors
             $primary:               ${vars.primaryColor};
