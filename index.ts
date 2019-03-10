@@ -47,7 +47,7 @@ export default class extends Plugin {
             $body-color:            ${vars.secondaryTextColor};
             
             // Spacing
-            $spacer:                ${vars.spacer}
+            $spacer:                ${vars.spacer};
             
             // Typography
             $font-family-base:      ${vars.fontFamily};
