@@ -2,7 +2,7 @@
 
 An example visua plugin that generates Bootstrap 4.x themes.
 
-See See [theming bootstrap](https://getbootstrap.com/docs/4.0/getting-started/theming/) to know how to build your Bootstrap assets from the generated scss variables file.
+See [theming bootstrap](https://getbootstrap.com/docs/4.0/getting-started/theming/) to know how to build your Bootstrap assets from the generated scss variables file.
 
 ## Prerequisites
 
