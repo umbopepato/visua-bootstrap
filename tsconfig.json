@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [ "es2017", "dom" ],
+    "target": "es6",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "noEmitOnError": false
+  },
+  "files": [
+    "index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
