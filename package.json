@@ -1,6 +1,6 @@
 {
     "name": "visua-bootstrap",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A bootstrap theme generator for Visua",
     "main": "index.js",
     "scripts": {
