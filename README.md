@@ -40,10 +40,14 @@ exported variable file.
 |`--spacer`|`<length>`|`$spacer`|
 |`--font-family`|`[<family-name>\|<generic-family>]#`|`$font-family-base`|
 |`--code-font-family`|`[<family-name>\|<generic-family>]#`|`$font-family-monospace`|
-|`--headings-font-family`|`[<family-name>\|<generic-family>]#`|`$font-size-base`|
-|`--font-size`|`<length>`|`$headings-font-family`|
-|`--headings-color`|`<color>`|`$headings-color`|
+|`--font-size`|`<length>`|`$font-size-base`|
+|`--font-weight`|`<length>`|`$font-weight-base`|
+|`--line-height`|`<length>`|`$line-height-base`|
+|`--headings-font-family`|`[<family-name>\|<generic-family>]#`|`$headings-font-family`|
 |`--primary-text-color`|`<color>`|`$headings-color`|
+|`--headings-color`|`<color>`|`$headings-color`|
+|`--headings-line-height`|`<color>`|`$headings-line-height`|
+|`--headings-font-weight`|`<color>`|`$headings-font-weight`|
 
 ## Options
 

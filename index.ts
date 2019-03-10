@@ -30,7 +30,11 @@ export default class extends Plugin {
             'font-size',
             'headings-font-family',
             'headings-color',
+            'headings-font-weight',
+            'headings-line-height',
             'primary-text-color',
+            'font-weight',
+            'line-height',
         ]);
         const theme = templatel`
             // Colors
@@ -52,8 +56,12 @@ export default class extends Plugin {
             $font-family-base:      ${vars.fontFamily};
             $font-family-monospace: ${vars.codeFontFamily};
             $font-size-base:        ${vars.fontSize};
+            $font-weight-base:      ${vars.fontWeight};
+            $line-height-base:      ${vars.lineHeight};
             $headings-font-family:  ${vars.headingsFontFamily};
             $headings-color:        ${vars.headingsColor || vars.primaryTextColor};
+            $headings-font-weight:  ${vars.headingsFontWeight};
+            $headings-line-height:  ${vars.headingsLineHeight};
         `;
         mkdirp.sync(dirname(outFile));
         fs.writeFileSync(outFile, theme);
