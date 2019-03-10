@@ -27,23 +27,23 @@ exported variable file.
 
 |Variable|Type|Exports to|
 |:---|:---|:---|
-|`primary-color`|`<color>`|`$primary`|
-|`secondary-color`|`<color>`|`$secondary`|
-|`success-color`|`<color>`|`$success`|
-|`info-color`|`<color>`|`$info`|
-|`warning-color`|`<color>`|`$warning`|
-|`error-color`|`<color>`|`$danger`|
-|`light-color`|`<color>`|`$light`|
-|`dark-color`|`<color>`|`$dark`|
-|`background-color`|`<color>`|`$body-bg`|
-|`secondary-text-color`|`<color>`|`$body-color`|
-|`spacer`|`<length>`|`$spacer`|
-|`font-family`|`[<family-name>\|<generic-family>]#`|`$font-family-base`|
-|`code-font-family`|`[<family-name>\|<generic-family>]#`|`$font-family-monospace`|
-|`headings-font-family`|`[<family-name>\|<generic-family>]#`|`$font-size-base`|
-|`font-size`|`<length>`|`$headings-font-family`|
-|`headings-color`|`<color>`|`$headings-color`|
-|`primary-text-color`|`<color>`|`$headings-color`|
+|`--primary-color`|`<color>`|`$primary`|
+|`--secondary-color`|`<color>`|`$secondary`|
+|`--success-color`|`<color>`|`$success`|
+|`--info-color`|`<color>`|`$info`|
+|`--warning-color`|`<color>`|`$warning`|
+|`--error-color`|`<color>`|`$danger`|
+|`--light-color`|`<color>`|`$light`|
+|`--dark-color`|`<color>`|`$dark`|
+|`--background-color`|`<color>`|`$body-bg`|
+|`--secondary-text-color`|`<color>`|`$body-color`|
+|`--spacer`|`<length>`|`$spacer`|
+|`--font-family`|`[<family-name>\|<generic-family>]#`|`$font-family-base`|
+|`--code-font-family`|`[<family-name>\|<generic-family>]#`|`$font-family-monospace`|
+|`--headings-font-family`|`[<family-name>\|<generic-family>]#`|`$font-size-base`|
+|`--font-size`|`<length>`|`$headings-font-family`|
+|`--headings-color`|`<color>`|`$headings-color`|
+|`--primary-text-color`|`<color>`|`$headings-color`|
 
 ## Options
 
