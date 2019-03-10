@@ -6,6 +6,7 @@
     "scripts": {
         "build": "tsc",
         "build:watch": "tsc -w",
+        "prepublishOnly": "npm run build && npm run test",
         "test": "mocha -r ts-node/register test/**/*.spec.ts"
     },
     "devDependencies": {
