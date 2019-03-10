@@ -37,7 +37,7 @@ exported variable file.
 |`headings-font-family`|`[<family-name>\|<generic-family>]#`|`$font-size-base`|
 |`font-size`|`<length>`|`$headings-font-family`|
 |`headings-color`|`<color>`|`$headings-color`|
-|`primary-text-color`|`<color>`|``|
+|`primary-text-color`|`<color>`|`$headings-color`|
 
 ## Options
 
