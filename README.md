@@ -14,7 +14,7 @@ See [visua.io](https://visua.io) to get started with visua and visua plugins.
 $ npm i visua-bootstrap
 ```
 
-# Usage
+## Usage
 
 ```bash
 $ visua run bootstrap [--outFile]
