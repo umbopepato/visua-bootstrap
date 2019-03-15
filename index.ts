@@ -1,4 +1,4 @@
-import {StyleMap, Plugin, OptionsMap, templatel} from 'visua';
+import {StyleMap, Plugin, OptionsMap, templatel, Options} from 'visua';
 import * as mkdirp from 'mkdirp';
 import {dirname} from 'path';
 import * as fs from 'fs';
@@ -9,7 +9,7 @@ export default class extends Plugin {
         outFile: String,
     };
 
-    run(styleMap: StyleMap, options: { [key: string]: any }) {
+    run(styleMap: StyleMap, options: Options) {
         const outFile = options.outFile || 'variables.scss';
         const vars = styleMap.getAll([
             'primary-color',
