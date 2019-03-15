@@ -5,11 +5,9 @@ import * as fs from 'fs';
 
 export default class extends Plugin {
 
-    static get options(): OptionsMap {
-        return {
-            outFile: String,
-        };
-    }
+    static options: OptionsMap = {
+        outFile: String,
+    };
 
     run(styleMap: StyleMap, options: { [key: string]: any }) {
         const outFile = options.outFile || 'variables.scss';
